@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+.landing1wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: url("../assets/images/landing1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("../assets/images/darkopa.png");
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.title_header {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 10vh;
+}
+
+.title .search_bar {
+  margin: 10px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 50vh;
+  padding: 10px;
+}
+.title .search_bar p {
+  color: grey;
+}
